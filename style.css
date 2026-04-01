@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: blue;
+    color:white;
+    }
+h1 {
+    animation: color-change 3s infinite;
+    color:aqua;
+    font-size: 26px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+@keyframes color-change {
+    0% {color: yellow}
+    25% {color: red}
+    50% {color: yellow}
+}
